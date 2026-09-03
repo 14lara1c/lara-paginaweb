@@ -77,6 +77,10 @@ height: 80px;
         max-width: 800px;
         margin: 0 auto;
         padding: 16px;
+        
+    }
+    article{
+
         display: flex;
     }
    img {
@@ -97,7 +101,10 @@ height: 80px;
     tecnologia e programacao</p>  
 </header>
 <main>
-    <img src="Gemini_Generated_Image_pv2mvlpv2mvlpv2m.png" alt="Logotipo conceitual de
+    <article>
+
+    <img src="Gemini_Generated_Image_pv2mvlpv2mvlpv2m.png" 
+    alt="Logotipo conceitual de
     tecnologia e educação: um livro aberto de onde emerge um cérebro digital brilhante, cercado por ícones de WiFi-Fi,
     circuitos e lâmpada de ideia. Cores em tons de azul e branco.">
     <div>
@@ -109,12 +116,26 @@ height: 80px;
     <button>❤️ <span>0</span></button>
     <button>👍🏽<span>0</span></button>
     <div>
-
+        <article>
+        <article>
+    <img src="Gemini_Generated_Image_pv2mvlpv2mvlpv2m.png" 
+    alt="Logotipo conceitual: 
+    um livro aberto de onde emerge um cérebro digital brilhante, cercado por ícones de WiFi-Fi,
+    circuitos e lâmpada de ideia. Cores em tons azul e branco.">
+    <div>
+    <h2>Meu segundo post</h2>
+    <p class="artigo-autor">Por: Lara Rhayssa</p>
+    <p>Boas-vindas ao meu blog! Aqui vou
+    compartilhar dicas de programacao e curiosidades
+    da area de tecnologia</p>
+    <button>❤️ <span>0</span></button>
+    <button>👍🏽<span>0</span></button>
+    <div>
 
     </main>
  </body>
  <script>     
-    const botoes = document.querySelector("button");
+    const botoes = document.querySelectorAll("button");
 
     botoes.forEach( function(botao){
         botao.addEventListener("click", botaoClicado);
@@ -124,8 +145,8 @@ height: 80px;
             texto.textContent++;
         }
     }
-
-    )
+    
+)
 
 
  </script>
